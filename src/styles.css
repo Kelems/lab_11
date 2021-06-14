@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#non-visible {
+  display: none;
+}
+
+#visible {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.pages {
+  height: 30px;
+  line-height: 16px;
+  padding: 7px;
+  background: gray;
+}
+
+#repos {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.repo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 75px;
+}
+
+.url,
+.login {
+  margin-left: 5px;
+}
+
+.active-page {
+  background: rgb(209, 209, 209);
+}
+
+#search {
+  margin-top: 20px;
+}
+#prev {
+  margin-right: 10px;
+}
+#next {
+  margin-left: 10px;
+}
